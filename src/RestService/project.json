@@ -2,7 +2,7 @@
   "version": "1.0.0-*",
   "description": "RestService Class Library",
   "authors": [ "Andreo Romera", "Cyrille NDOUMBE" ],
-  "tags": [ "HTTP Client", "Web API", "REST" ],
+  "tags": [ "HTTP Client", "webapi", "rest", "Restful", "service", "asynchronous", "generic" ],
   "projectUrl": "",
   "licenseUrl": "",
   "dependencies": {
