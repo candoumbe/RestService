@@ -1,0 +1,30 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "RestService Class Library",
+  "authors": [ "Andreo Romera", "Cyrille NDOUMBE" ],
+  "tags": [ "HTTP Client", "Web API", "REST" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "dependencies": {
+    "Newtonsoft.Json": "8.0.3",
+    "Microsoft.AspNet.WebApi.Client": "5.2.3"
+  },
+  "frameworks": {
+    "dnx451": {
+      "dependencies": {
+        "System.Net.Http": "4.0.1-beta-23516"  
+      }
+    },
+    "dnxcore50": {
+      "dependencies": {
+        "Microsoft.Net.Http.Headers": "1.0.0-rc1-final",
+        "Microsoft.CSharp": "4.0.1-beta-23516",
+        "System.Collections": "4.0.11-beta-23516",
+        "System.Linq": "4.0.1-beta-23516",
+        "System.Runtime": "4.0.21-beta-23516",
+        "System.Threading": "4.0.11-beta-23516",
+        "Microsoft.AspNet.Mvc.WebApiCompatShim": "6.0.0-rc1-final"
+      }
+    }
+  }
+}
